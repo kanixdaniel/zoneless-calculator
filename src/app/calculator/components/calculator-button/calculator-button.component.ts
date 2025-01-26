@@ -1,8 +1,9 @@
+import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, HostBinding, input } from '@angular/core';
 
 @Component({
     selector: 'calculator-button',
-    imports: [],
+    imports: [CommonModule],
     templateUrl: './calculator-button.component.html',
     styleUrl: './calculator-button.component.css',
     changeDetection: ChangeDetectionStrategy.OnPush,
