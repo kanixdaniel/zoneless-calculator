@@ -9,3 +9,7 @@ button {
 .is-equal {
     @apply bg-indigo-700/30 hover:bg-indigo-700/40;
 }
+
+.is-pressed {
+    @apply bg-indigo-700/40 animate-ping;
+}
